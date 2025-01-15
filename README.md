@@ -47,5 +47,6 @@ I am going to use the required technologies in the following ways:
     - Retrieiving list of possible opponents
     - Submitting game results
     - retrieving ranking lists of all players
+    - API call to Scryfall for MTG pictures, commanders
  - **DB/Login** - Store users, opponents, game results, opponents-per-game, elo. users will be able to register and login. Credentials will be securely stores on the database. Potential for some sort of verification where a user is alerted that a game has been reported with them in it (stretch goal)
  - **WebSocket** - When games are submitted, elos update in real time, showing a user if their score went up or down (reflected by a red/green arrow).
