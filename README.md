@@ -43,7 +43,9 @@ I am going to use the required technologies in the following ways:
 
  - **HTML** - HTML stuctured correctly for the application. Three HTML pages. One for login, one for submitting games results, and one for viewing rankings. (Could potentially combine pages 2 and 3)
  - **CSS** - Application is viewable without a headache on different-sized devices. Information doesn't feel overwhelming by using correct white space and contrasting colors. Dark mode is life. Red/Green Arrows for showing improvement of scores (stretch goal)
- - **React** - Logins, opponent selection, game result selection, applying new scores to ranking elos, displaying rankings, displaying different rankings based on location preference. Some selection items become disabled when one is selected.
+ - **React** - Logins, opponent selection, game result selection, applying new scores to ranking elos, displaying rankings, displaying different rankings based on location preference. 
+    - Some selection items become disabled when one is selected.
+    - Submit game widget or functionality hidden until logged in
  - **Service** - Backend service with endpoints for:
     - Login
     - Retrieiving list of possible opponents
@@ -51,4 +53,5 @@ I am going to use the required technologies in the following ways:
     - retrieving ranking lists of all players
     - API call to Scryfall for MTG pictures, commanders
  - **DB/Login** - Store users, opponents, game results, opponents-per-game, elo. users will be able to register and login. Credentials will be securely stores on the database. Potential for some sort of verification where a user is alerted that a game has been reported with them in it (stretch goal)
+ - **Authentification** - Users cannot submit games without logging in. Logins, sign-ups, 
  - **WebSocket** - When games are submitted, elos update in real time, showing a user if their score went up or down (reflected by a red/green arrow).
