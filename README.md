@@ -10,6 +10,21 @@ cEDH is a way to enjoy a popular card game known as Magic the Gathering (MTG). T
 
 ### Design
 
+Here is a sequence diagram that shows how people would interact with the backend when reporting game results.
+
+```mermaid
+sequenceDiagram
+    actor Jace
+    actor Liliana
+    actor Tetsuko
+    actor Tymna
+    Jace->>Server: Report Game Win
+    Server -->>Jace: Elo (Prowess Score) ++
+    Server -->>Liliana: Elo (Prowess Score) --
+    Server -->>Tetsuko: Elo (Prowess Score) --
+    Server -->>Tymna: Elo (Prowess Score) --
+```
+
 ### Key Features
 
  - Secure login over HTTPS
@@ -27,12 +42,10 @@ I am going to use the required technologies in the following ways:
  - **HTML** - HTML stuctured correctly for the application. Three HTML pages. One for login, one for submitting games results, and one for viewing rankings. (Could potentially combine pages 2 and 3)
  - **CSS** - Application is viewable without a headache on different-sized devices. Information doesn't feel overwhelming by using correct white space and contrasting colors. Dark mode is life. Red/Green Arrows for showing improvement of scores (stretch goal)
  - **React** - Logins, opponent selection, game result selection, applying new scores to ranking elos, displaying rankings, displaying different rankings based on location preference.
- - **Service** Backend service with endpoints for:
+ - **Service** - Backend service with endpoints for:
     - Login
     - Retrieiving list of possible opponents
     - Submitting game results
     - retrieving ranking lists of all players
- - **DB/Login** - Store users, opponents, game results, oppoents-per-game, elo. users will be able to register and login. Credentials will be securely stores on the database. Potential for some sort of verification where a user is alerted that a game has been reported with them in it (stretch goal)
+ - **DB/Login** - Store users, opponents, game results, opponents-per-game, elo. users will be able to register and login. Credentials will be securely stores on the database. Potential for some sort of verification where a user is alerted that a game has been reported with them in it (stretch goal)
  - **WebSocket** - When games are submitted, elos update in real time, showing a user if their score went up or down (reflected by a red/green arrow).
-
-### 
