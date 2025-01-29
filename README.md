@@ -17,7 +17,7 @@ Here is a sequence diagram that shows how people would interact with the backend
 ```mermaid
 sequenceDiagram
     actor Jace
-    actor Liliana
+    actor Liliana 
     actor Tetsuko
     actor Tymna
     Jace->>Server: Report Game Win
