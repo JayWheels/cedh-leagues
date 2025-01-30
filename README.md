@@ -66,6 +66,7 @@ I am going to use the required technologies in the following ways:
  - [x] **Notes** - notes updated, good luck TAs
  - [x] **Commits** - I pushed the Commit Button more than once
 
+Main Reqs
 - [x] **HTML pages** - Three HTML page that represent the ability to login, view the leaderboard, and then submit game results. The verify HTML page can be ignored, that is a stretch goal of mine to work on and is not part of the deliverable.
 - [x] **Proper use of HTML Tags** - Each page correctly uses BODY, NAV, MAIN, HEADER, FOOTER as necessary.
 - [x] **Links** - The login page automatically links to the leaderboard page. Each page contains links to each other page.
