@@ -22,19 +22,16 @@
     </header>
 
     <main>
-      <div class="dropdown">
-        <button onclick="myFunction()" class="dropbtn">Dropdown</button>
-        <div id="myDropdown" class="dropdown-content">
-          <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
-          <a href="#about">About</a>
-          <a href="#base">Base</a>
-          <a href="#blog">Blog</a>
-          <a href="#contact">Contact</a>
-          <a href="#custom">Custom</a>
-          <a href="#support">Support</a>
-          <a href="#tools">Tools</a>
-        </div>
-      </div>
+      <label for="metas">Select a meta:</label>
+
+      <select name="metas" id="metas">
+        <option value="Global">Global</option>
+        <option value="Utah">Utah</option>
+        <option value="Provo">Provo</option>
+        <option value="Cedar City">Cedar City</option>
+        <option value="Logan">Logan</option>
+      </select>
+
       <table>
         <thead>
           <tr>
