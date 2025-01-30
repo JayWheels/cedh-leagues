@@ -64,6 +64,7 @@ I am going to use the required technologies in the following ways:
 - [x] **Proper use of HTML Tags** - Each page correctly uses BODY, NAV, MAIN, HEADER, FOOTER as necessary.
 - [x] **Links** - The login page automatically links to the leaderboard page. Each page contains links to each other page.
 - [x] **Text** - The application is explained and each input has proper labels.
+- [x] **3rd Party Service Calls** - Under the Submit Page, the final text box is for the user to submit a "commander", typing in this box will ping Scryfall's API and return possible matches for commanders based on what is typed.
 - [ ] **Images** - I couldn't figure out how to include an image and so I didn't do this. 😔
 - [x] **DB/Login** - Input box and submit button for login. The voting choices represent data pulled from the database.
 - [x] **WebSocket** - The count of voting results represent the tally of realtime votes.
