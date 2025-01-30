@@ -55,3 +55,15 @@ I am going to use the required technologies in the following ways:
  - **DB/Login** - Store users, opponents, game results, opponents-per-game, elo. users will be able to register and login. Credentials will be securely stores on the database. Potential for some sort of verification where a user is alerted that a game has been reported with them in it (stretch goal)
  - **Authentification** - Users cannot submit games without logging in. Logins, sign-ups, 
  - **WebSocket** - When games are submitted, elos update in real time, showing a user if their score went up or down (reflected by a red/green arrow).
+
+ ### HTML Deliverable
+
+ For this deliverable I built out the structure of my application using HTML.
+
+- [x] **HTML pages** - Three HTML page that represent the ability to login, view the leaderboard, and then submit game results. The verify HTML page can be ignored, that is a stretch goal of mine to work on and is not part of the deliverable.
+- [x] **Proper use of HTML Tags** - Each page correctly uses BODY, NAV, MAIN, HEADER, FOOTER as necessary.
+- [x] **Links** - The login page automatically links to the leaderboard page. Each page contains links to each other page.
+- [x] **Text** - The application is explained and each input has proper labels.
+- [ ] **Images** - I couldn't figure out how to include an image and so I didn't do this. 😔
+- [x] **DB/Login** - Input box and submit button for login. The voting choices represent data pulled from the database.
+- [x] **WebSocket** - The count of voting results represent the tally of realtime votes.
