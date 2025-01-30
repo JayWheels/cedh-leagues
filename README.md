@@ -67,4 +67,5 @@ I am going to use the required technologies in the following ways:
 - [x] **3rd Party Service Calls** - Under the Submit Page, the final text box is for the user to submit a "commander", typing in this box will ping Scryfall's API and return possible matches for commanders based on what is typed.
 - [x] **Images** - One Image Added, the logo
 - [x] **Login and Username Display** - Input box and submit button for login and create account. Username is displayed under the Submit page and will automatically fill in when their seat is selected (placeholder)
-- [x] **WebSocket** - The count of voting results represent the tally of realtime votes.
+- [x] **Database data placeholder** - Leaderboard will show content stored in the database, submit page player search bar pulls from the db of registered players.
+- [x] **WebSocket data placeholder** - The leaderboard will actively update in real time, showing submissions affecting it to everyone else on the site.
