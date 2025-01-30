@@ -66,5 +66,5 @@ I am going to use the required technologies in the following ways:
 - [x] **Text** - The application is explained and each input has proper labels.
 - [x] **3rd Party Service Calls** - Under the Submit Page, the final text box is for the user to submit a "commander", typing in this box will ping Scryfall's API and return possible matches for commanders based on what is typed.
 - [x] **Images** - One Image Added, the logo
-- [x] **DB/Login** - Input box and submit button for login. The voting choices represent data pulled from the database.
+- [x] **Login and Username Display** - Input box and submit button for login and create account. Username is displayed under the Submit page and will automatically fill in when their seat is selected (placeholder)
 - [x] **WebSocket** - The count of voting results represent the tally of realtime votes.
