@@ -76,3 +76,12 @@ Main Reqs
 - [x] **Login and Username Display** - Input box and submit button for login and create account. Username is displayed under the Submit page and will automatically fill in when their seat is selected (placeholder)
 - [x] **Database data placeholder** - Leaderboard will show content stored in the database, submit page player search bar pulls from the db of registered players.
 - [x] **WebSocket data placeholder** - The leaderboard will actively update in real time, showing submissions affecting it to everyone else on the site.
+
+ ### CSS Deliverable
+
+ Pre-reqs
+
+ - [x] **Simon CSS** - deployed successfully
+ - [x] **Github Link** - github link at bottom of each html page
+ - [x] **Notes** - notes updated, good luck TAs
+ - [x] **Commits** - I pushed the Commit Button more than once
