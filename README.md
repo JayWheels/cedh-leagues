@@ -85,3 +85,12 @@ Main Reqs
  - [x] **Github Link** - github link at bottom of each html page
  - [x] **Notes** - notes updated, good luck TAs
  - [x] **Commits** - I pushed the Commit Button more than once
+
+ For this deliverable I styled the application into something close to what I think is acceptable. I mostly wanted to test possibilities and will continue to test things. I feel very comfortable with boostrap, but am overwhelmed by the many CSS options.
+
+ - [x] **Headers, Footers, Main** - all have some amount of CSS
+ - [x] **Navigation Menu** - Has CSS and is flexible, will hide on window resize too small
+ - [x] **Responsive** - Things resize when the window does and on smaller devices.
+ - [x] **Application Elements** - Dark mode is Live, things can be read, and white space is acceptable. Ignore the giant photo on the home page, I wanted to see how obnoxious that test-ad would be and was experimenting with borders and containers from the Simon CSS.
+- [x] **Application Text Content** - Fonts are basic, default, and consistent. I use bold fonts when needed or apporopriate for titles, headers, otherwise.
+ - [x] **Application Images** - Images should resize reactively. Some are part of of a main div or are in a container div with applies CSS like borders, sizing, etc.
