@@ -38,26 +38,29 @@
     
     </header>
 
-    <main>
+    <main class="container-fluid bg-secondary text-center">
 
       <div class="image-container">
         <img src="prowessAd.jpg" class="img-fluid" alt="Prowess Logo">
       </div>
+      <div>
+        <img src="prowessLogo.png" alt="Prowess Logo" width="300">
 
-      <img src="prowessLogo.png" alt="Prowess Logo" width="300">
-      <h1>Welcome Back to Competitive EDH</h1>
-      <form method="get" action="leaderboard.html">
-        <div>
-          <span>@</span>
-          <input type="text" placeholder="your@email.com" />
-        </div>
-        <div>
-          <span>🔒</span>
-          <input type="password" placeholder="password" />
-        </div>
-        <button type="submit">Login</button>
-        <button type="submit">Sign-Up</button>
-      </form>
+        <h1>Welcome Back to Competitive EDH</h1>
+
+        <form method="get" action="leaderboard.html">
+          <div class="input-group mb-3">
+           <span class="input-group-text">@</span>
+           <input class="form-control" type="text" placeholder="your@email.com" />
+          </div>
+          <div class="input-group mb-3">
+            <span class="input-group-text">🔒</span>
+            <input class="form-control" type="password" placeholder="password" />
+          </div>
+          <button type="submit" class="btn btn-primary">Login</button>
+          <button type="submit" class="btn btn-secondary">Sign-Up</button>
+        </form>
+      </div>
     </main>
 
     <p>
