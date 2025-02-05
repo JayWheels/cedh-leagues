@@ -94,3 +94,5 @@ Main Reqs
  - [x] **Application Elements** - Dark mode is Live, things can be read, and white space is acceptable. Ignore the giant photo on the home page, I wanted to see how obnoxious that test-ad would be and was experimenting with borders and containers from the Simon CSS.
 - [x] **Application Text Content** - Fonts are basic, default, and consistent. I use bold fonts when needed or apporopriate for titles, headers, otherwise.
  - [x] **Application Images** - Images should resize reactively. Some are part of of a main div or are in a container div with applies CSS like borders, sizing, etc.
+
+ Please note that "Game Verification" and it's HTML are stretch goals for myself around the final deliverable and are not part of the CSS dliverable.
