@@ -37,3 +37,12 @@ main {
 footer {
     flex: 0 40px;
 }
+
+@media (max-height: 600px) {
+    footer {
+      display: none;
+    }
+    main {
+      flex: 1 100vh;
+    }
+  }
