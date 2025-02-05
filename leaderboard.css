@@ -4,3 +4,8 @@ td {
     white-space: nowrap;
     text-overflow: ellipsis;
 }
+
+table tbody tr td:nth-child(odd) {
+    background-color: #2c2c2c;
+    color: #ffffff;
+}
