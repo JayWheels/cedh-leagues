@@ -1,0 +1,11 @@
+td {
+    max-width: 40vw;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+table {
+    width: 75%;
+    table-layout: fixed;
+}
