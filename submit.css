@@ -9,3 +9,10 @@ table {
     width: 75%;
     table-layout: fixed;
 }
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    accent-color: #007bff; /* Changes checkbox color */
+  }
